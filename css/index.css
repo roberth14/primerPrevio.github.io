@@ -7,10 +7,18 @@
 }
 .container2 {
     display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 1200px;
+    min-height: 120px; 
+    max-height: 200px; 
+}
+
+.container3{
+    display: grid;
     grid-template-columns: 2fr 2fr;
-    width: 600px;
-    min-height: 80px; 
-    max-height: 80px; 
+    width: 1200px;
+    min-height: 120px; 
+    max-height: 200px; 
 }
 
 .estilo_header {
@@ -48,3 +56,17 @@
 
 }
 
+.imagen{
+    grid-column:1; 
+    height: 120px;
+    width: 120px ;
+    margin: 30px;
+    
+}
+
+.h1{
+    grid-column: 2; 
+    size: 2.5em;
+    text-align: center;
+    float: left;
+}
