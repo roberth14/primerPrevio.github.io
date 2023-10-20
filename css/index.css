@@ -70,3 +70,7 @@
     text-align: center;
     float: left;
 }
+
+ul.no-bullets {
+    list-style-type: none;
+  }
